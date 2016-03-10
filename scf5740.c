@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#include "alclock.h"
+#include "scf5740.h"
 
 /* connection: PD6 = RST, PD7 = LOAD, PB5 = CLK, PB3 = DATA */
 void init_scf5740() {
